@@ -34,6 +34,9 @@ i2p.susi.webmail.smtp
 net.i2p
 net.i2p.addressbook
 net.i2p.addressbook.servlet
+net.i2p.apache.http.conn.ssl
+net.i2p.apache.http.conn.util
+net.i2p.apache.http.util
 net.i2p.app
 net.i2p.apps.systray
 net.i2p.client
@@ -125,9 +128,6 @@ net.metanotion.io.block
 net.metanotion.io.block.index
 net.metanotion.io.data
 net.metanotion.util.skiplist
-org.apache.http.conn.ssl
-org.apache.http.conn.util
-org.apache.http.util
 org.cybergarage
 org.cybergarage.http
 org.cybergarage.net
