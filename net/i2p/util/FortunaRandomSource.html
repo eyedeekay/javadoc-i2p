@@ -179,87 +179,84 @@ implements <a href="../crypto/EntropyHarvester.html" title="interface in net.i2p
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">reseed the fortuna</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="../crypto/EntropyHarvester.html" title="interface in net.i2p.crypto">EntropyHarvester</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#harvester()" class="member-name-link">harvester</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#main(java.lang.String%5B%5D)" class="member-name-link">main</a><wbr>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;args)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#main(java.lang.String%5B%5D)" class="member-name-link">main</a><wbr>(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]&nbsp;args)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
 <div class="block">Outputs to stdout for dieharder:
   <code>
   java -cp build/i2p.jar net.i2p.util.FortunaRandomSource | dieharder -a -g 200
   </code></div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>protected int</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextBits(int)" class="member-name-link">nextBits</a><wbr>(int&nbsp;numBits)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>protected int</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextBits(int)" class="member-name-link">nextBits</a><wbr>(int&nbsp;numBits)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Pull the next numBits of random data off the fortuna instance (returning 0
  through 2^numBits-1
 
  Caller must synchronize!</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>boolean</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextBoolean()" class="member-name-link">nextBoolean</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>byte</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextByte()" class="member-name-link">nextByte</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>boolean</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextBoolean()" class="member-name-link">nextBoolean</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>byte</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextByte()" class="member-name-link">nextByte</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Not part of java.util.SecureRandom, but added for efficiency, since Fortuna supports it.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextBytes(byte%5B%5D)" class="member-name-link">nextBytes</a><wbr>(byte[]&nbsp;buf)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextBytes(byte%5B%5D,int,int)" class="member-name-link">nextBytes</a><wbr>(byte[]&nbsp;buf,
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextBytes(byte%5B%5D)" class="member-name-link">nextBytes</a><wbr>(byte[]&nbsp;buf)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextBytes(byte%5B%5D,int,int)" class="member-name-link">nextBytes</a><wbr>(byte[]&nbsp;buf,
  int&nbsp;offset,
  int&nbsp;length)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Not part of java.util.SecureRandom, but added for efficiency, since Fortuna supports it.</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>double</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextDouble()" class="member-name-link">nextDouble</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
-<div class="block">Implementation from sun's java.util.Random javadocs</div>
-</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>float</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextFloat()" class="member-name-link">nextFloat</a>()</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>double</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextDouble()" class="member-name-link">nextDouble</a>()</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Implementation from sun's java.util.Random javadocs</div>
 </div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>double</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextGaussian()" class="member-name-link">nextGaussian</a>()</code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>float</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextFloat()" class="member-name-link">nextFloat</a>()</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Implementation from sun's java.util.Random javadocs</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextInt()" class="member-name-link">nextInt</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>double</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextGaussian()" class="member-name-link">nextGaussian</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Implementation from sun's java.util.Random javadocs</div>
+</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextInt(int)" class="member-name-link">nextInt</a><wbr>(int&nbsp;n)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextInt()" class="member-name-link">nextInt</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextInt(int)" class="member-name-link">nextInt</a><wbr>(int&nbsp;n)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">According to the java docs (http://java.sun.com/j2se/1.4.1/docs/api/java/util/Random.html#nextInt(int))
  nextInt(n) should return a number between 0 and n (including 0 and excluding n).</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>long</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextLong()" class="member-name-link">nextLong</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>long</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextLong(long)" class="member-name-link">nextLong</a><wbr>(long&nbsp;n)</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextLong()" class="member-name-link">nextLong</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>long</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#nextLong(long)" class="member-name-link">nextLong</a><wbr>(long&nbsp;n)</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Like the modified nextInt, nextLong(n) returns a random number from 0 through n,
  including 0, excluding n.</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setSeed(byte%5B%5D)" class="member-name-link">setSeed</a><wbr>(byte[]&nbsp;buf)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
-<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#shutdown()" class="member-name-link">shutdown</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#setSeed(byte%5B%5D)" class="member-name-link">setSeed</a><wbr>(byte[]&nbsp;buf)</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>void</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#shutdown()" class="member-name-link">shutdown</a>()</code></div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">Note - methods may hang or NPE or throw IllegalStateExceptions after this</div>
 </div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#signedNextInt()" class="member-name-link">signedNextInt</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>int</code></div>
+<div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#signedNextInt()" class="member-name-link">signedNextInt</a>()</code></div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">This code unused, see FortunaRandomSource override</div>
 </div>
 </div>
@@ -267,7 +264,7 @@ implements <a href="../crypto/EntropyHarvester.html" title="interface in net.i2p
 </div>
 <div class="inherited-list">
 <h3 id="methods-inherited-from-class-net.i2p.util.RandomSource">Methods inherited from class&nbsp;net.i2p.util.<a href="RandomSource.html" title="class in net.i2p.util">RandomSource</a></h3>
-<code><a href="RandomSource.html#getInstance()">getInstance</a>, <a href="RandomSource.html#initSeed(byte%5B%5D)">initSeed</a>, <a href="RandomSource.html#loadSeed()">loadSeed</a>, <a href="RandomSource.html#saveSeed()">saveSeed</a>, <a href="RandomSource.html#writeSeed(byte%5B%5D)">writeSeed</a></code></div>
+<code><a href="RandomSource.html#getInstance()">getInstance</a>, <a href="RandomSource.html#harvester()">harvester</a>, <a href="RandomSource.html#initSeed(byte%5B%5D)">initSeed</a>, <a href="RandomSource.html#loadSeed()">loadSeed</a>, <a href="RandomSource.html#saveSeed()">saveSeed</a>, <a href="RandomSource.html#writeSeed(byte%5B%5D)">writeSeed</a></code></div>
 <div class="inherited-list">
 <h3 id="methods-inherited-from-class-java.security.SecureRandom">Methods inherited from class&nbsp;java.security.<a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html" title="class or interface in java.security" class="external-link">SecureRandom</a></h3>
 <code><a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#generateSeed(int)" title="class or interface in java.security" class="external-link">generateSeed</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getAlgorithm()" title="class or interface in java.security" class="external-link">getAlgorithm</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getInstance(java.lang.String)" title="class or interface in java.security" class="external-link">getInstance</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getInstance(java.lang.String,java.lang.String)" title="class or interface in java.security" class="external-link">getInstance</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getInstance(java.lang.String,java.security.Provider)" title="class or interface in java.security" class="external-link">getInstance</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getInstance(java.lang.String,java.security.SecureRandomParameters)" title="class or interface in java.security" class="external-link">getInstance</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getInstance(java.lang.String,java.security.SecureRandomParameters,java.lang.String)" title="class or interface in java.security" class="external-link">getInstance</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getInstance(java.lang.String,java.security.SecureRandomParameters,java.security.Provider)" title="class or interface in java.security" class="external-link">getInstance</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getInstanceStrong()" title="class or interface in java.security" class="external-link">getInstanceStrong</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getParameters()" title="class or interface in java.security" class="external-link">getParameters</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getProvider()" title="class or interface in java.security" class="external-link">getProvider</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#getSeed(int)" title="class or interface in java.security" class="external-link">getSeed</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#next(int)" title="class or interface in java.security" class="external-link">next</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#nextBytes(byte%5B%5D,java.security.SecureRandomParameters)" title="class or interface in java.security" class="external-link">nextBytes</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#reseed()" title="class or interface in java.security" class="external-link">reseed</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#reseed(java.security.SecureRandomParameters)" title="class or interface in java.security" class="external-link">reseed</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#setSeed(long)" title="class or interface in java.security" class="external-link">setSeed</a>, <a href="https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html#toString()" title="class or interface in java.security" class="external-link">toString</a></code></div>
@@ -335,12 +332,18 @@ implements <a href="../crypto/EntropyHarvester.html" title="interface in net.i2p
  nextInt(n) should return a number between 0 and n (including 0 and excluding n).  However, their pseudocode,
  as well as sun's, kaffe's, and classpath's implementation INCLUDES NEGATIVE VALUES.
  Ok, so we're going to have it return between 0 and n (including 0, excluding n), since 
- thats what it has been used for.</div>
+ thats what it has been used for.
+
+ Unlike Java's Random, which throws IAE, this returns 0 if n is 0.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code>nextInt</code>&nbsp;in interface&nbsp;<code>java.util.random.RandomGenerator</code></dd>
 <dt>Overrides:</dt>
 <dd><code><a href="RandomSource.html#nextInt(int)">nextInt</a></code>&nbsp;in class&nbsp;<code><a href="RandomSource.html" title="class in net.i2p.util">RandomSource</a></code></dd>
+<dt>Parameters:</dt>
+<dd><code>n</code> - non-negative</dd>
+<dt>Throws:</dt>
+<dd><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html" title="class or interface in java.lang" class="external-link">IllegalArgumentException</a></code> - if n is negative</dd>
 </dl>
 </section>
 </li>
@@ -377,12 +380,18 @@ implements <a href="../crypto/EntropyHarvester.html" title="interface in net.i2p
 <h3>nextLong</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">long</span>&nbsp;<span class="element-name">nextLong</span><wbr><span class="parameters">(long&nbsp;n)</span></div>
 <div class="block">Like the modified nextInt, nextLong(n) returns a random number from 0 through n,
- including 0, excluding n.</div>
+ including 0, excluding n.
+
+ Unlike Java's Random, which throws IAE, this returns 0 if n is 0.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code>nextLong</code>&nbsp;in interface&nbsp;<code>java.util.random.RandomGenerator</code></dd>
 <dt>Overrides:</dt>
 <dd><code><a href="RandomSource.html#nextLong(long)">nextLong</a></code>&nbsp;in class&nbsp;<code><a href="RandomSource.html" title="class in net.i2p.util">RandomSource</a></code></dd>
+<dt>Parameters:</dt>
+<dd><code>n</code> - non-negative</dd>
+<dt>Throws:</dt>
+<dd><code><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html" title="class or interface in java.lang" class="external-link">IllegalArgumentException</a></code> - if n is negative</dd>
 </dl>
 </section>
 </li>
@@ -497,16 +506,6 @@ implements <a href="../crypto/EntropyHarvester.html" title="interface in net.i2p
  through 2^numBits-1
 
  Caller must synchronize!</div>
-</section>
-</li>
-<li>
-<section class="detail" id="harvester()">
-<h3>harvester</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../crypto/EntropyHarvester.html" title="interface in net.i2p.crypto">EntropyHarvester</a></span>&nbsp;<span class="element-name">harvester</span>()</div>
-<dl class="notes">
-<dt>Overrides:</dt>
-<dd><code><a href="RandomSource.html#harvester()">harvester</a></code>&nbsp;in class&nbsp;<code><a href="RandomSource.html" title="class in net.i2p.util">RandomSource</a></code></dd>
-</dl>
 </section>
 </li>
 <li>
