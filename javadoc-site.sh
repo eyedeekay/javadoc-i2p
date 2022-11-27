@@ -1,5 +1,5 @@
 #! /usr/bin/env sh
-cd i2p.i2p || git clone --depth=1 https://i2pgit.org/i2p-hackers/i2p.i2p && cd i2p.i2p
+cd i2p.i2p || git clone --depth 1 https://i2pgit.org/i2p-hackers/i2p.i2p && cd i2p.i2p
 ant javadoc
 cp javadoc-site.sh ~/.i2p/eepsite/docroot/javadoc-i2p/
 cp -rv build/javadoc/* ~/.i2p/eepsite/docroot/javadoc-i2p/ -v || cd ../
